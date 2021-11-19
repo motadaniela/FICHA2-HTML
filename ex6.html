@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TW-EX-6</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+<form
+    action="https://www.webucator.com/materials/htm101/"
+    method="post"
+>
+    User name:<input type="text" name="username" id="username"><br>
+    Password:<input type="password" name="pw" id="pw"><br>
+    <input type="hidden" name="emailMe" id="emailMe" value="40210288@esmad.ipp.pt">
+
+    Gender:<input type="radio" name="gender" id="genderf" value="f">female
+    <input type="radio" name="gender" id="genderm" value="m">male<br>
+    Click to accept your terms:<input type="checkbox" name="terms" id="terms">
+    <br>Where did you hear about us?
+    <select name="referral" id="referral">
+        <option value="0">-Please choose-</option>
+        <option value="wom">Word of mouth</option>
+        <optgroup label="Search engine">
+            <option value="Google">Google</option>
+            <option value="Yahoo">Yahoo</option>
+            <option value="MSN">MSN</option>
+        </optgroup>
+    </select>
+    <br>Comments:<br>
+    <textarea name="comments" id="comments" rows="3" cols="30"></textarea>
+    <br>
+    <input type="submit" value="Register">
+    <input type="reset" value="Reset">
+</form>
+</body>
+</html>
